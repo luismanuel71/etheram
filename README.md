@@ -9,6 +9,15 @@
 
 Ethereum IDE plugin for hackable Atom editor. Compile smart contracts, deploy them to Ethereum networks. Efficient contract management interface. Integrated test suite for smart contracts.
 
+## Features
+
+- 🚀 One-click compilation and deployment
+- 💻 Interactive Solidity editor
+- 🔧 Built-in test framework
+- 🔗 Multi-network support
+- 📊 Real-time contract state monitoring
+- 🛠 Integrated debugging tools
+
 ![A screenshot of Etheratom package](https://user-images.githubusercontent.com/13261372/37828365-f43a0c8c-2ec0-11e8-8d09-d1c29d7168d3.png)
 
 # Sponsors
